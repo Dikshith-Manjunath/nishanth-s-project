@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <div class="sell">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sell a Book</title>
+  <link rel="stylesheet" href="style.css">
+</div>
+</head>
+<body>
+    <div class="sell-section">
+  <h1>Sell a Book</h1>
+  <form id="sellBookForm">
+    <input type="text" id="sellTitle" placeholder="Title" required><br>
+    <input type="text" id="sellAuthor" placeholder="Author" required><br>
+    <input type="number" id="sellYear" placeholder="Year Bought" required><br>
+    <input type="number" id="sellPrice" placeholder="Price" required><br>
+    <input type="text" id="sellUserName" placeholder="Your Name" required><br>
+    <input type="tel" id="sellPhoneNumber" placeholder="Phone Number" required><br>
+    <input type="text" id="sellAddress" placeholder="Address" required><br>
+    <p>Image:
+    <input type="file" id="sellImage" accept="image/*" required></p>
+    <button type="submit">Sell Book</button>
+  </form>
+
+  <script src="sellScript.js"></script>
+</div>
+</body>
+</html>
