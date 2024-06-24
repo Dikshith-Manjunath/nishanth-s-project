@@ -35,7 +35,7 @@ body {
 
   /* Background image for the home page */
   .home-page {
-    background-image: url('background.jpg'); /* Replace 'home-background.jpg' with the path to your home page background image */
+    background-image: url('img/background.jpg'); /* Replace 'home-background.jpg' with the path to your home page background image */
     background-repeat: no-repeat;
     background-size: cover;
     /* Add other styles specific to the home page */
@@ -96,7 +96,7 @@ body {
     cursor: pointer;
   }
 .sell-section {
-    background-image: url('sell-background.jpeg');
+    background-image: url('img/sell-background.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
